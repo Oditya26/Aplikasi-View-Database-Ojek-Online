@@ -6,8 +6,6 @@ package aplikasi_ojek_online;
 
 import Connection.koneksi;
 import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GradientPaint;
 import java.awt.Graphics;
@@ -19,14 +17,10 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import javax.swing.JButton;
 import javax.swing.JComponent;
-import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JTable;
 import javax.swing.plaf.basic.BasicScrollBarUI;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.JTableHeader;
-import javax.swing.table.TableCellRenderer;
-import javax.swing.table.TableColumnModel;
 import org.w3c.dom.events.MouseEvent;
 import javax.swing.table.TableColumnModel;
 
@@ -107,7 +101,7 @@ public class Aplikasi extends javax.swing.JFrame {
         
         JTableHeader header = tabelData.getTableHeader();
         header.setFont(new Font("Lato", Font.BOLD, 12));
-        header.setForeground(new Color(44, 53, 77));
+         header.setBackground(new Color(245, 246, 250));
     }
     
     private void setColumnWidth_passenger() {
@@ -138,7 +132,7 @@ public class Aplikasi extends javax.swing.JFrame {
         
         JTableHeader header = tabelData.getTableHeader();
         header.setFont(new Font("Lato", Font.BOLD, 12));
-        header.setForeground(new Color(44, 53, 77));
+         header.setBackground(new Color(245, 246, 250));
         
     }
     
@@ -170,7 +164,7 @@ public class Aplikasi extends javax.swing.JFrame {
         
         JTableHeader header = tabelData.getTableHeader();
         header.setFont(new Font("Lato", Font.BOLD, 12));
-        header.setForeground(new Color(44, 53, 77));
+         header.setBackground(new Color(245, 246, 250));
         
         
     }
@@ -421,6 +415,8 @@ public class Aplikasi extends javax.swing.JFrame {
         initComponents();
         Color col = new Color (245,246,250);
         getContentPane().setBackground(col);
+        JTableHeader defaultHeader = tabelData.getTableHeader();
+        defaultHeader.setBackground(new Color(245, 246, 250));
         tampilkan_data_overview();
     }
 
@@ -447,7 +443,6 @@ public class Aplikasi extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Background Color");
-        setPreferredSize(new java.awt.Dimension(875, 600));
 
         jPanel1.setBackground(new java.awt.Color(69, 115, 255));
         jPanel1 = new GradientPanel();
@@ -550,6 +545,7 @@ public class Aplikasi extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
+        tabelData.setGridColor(new java.awt.Color(51, 51, 51));
         jScrollPane1.setViewportView(tabelData);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
