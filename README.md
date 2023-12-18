@@ -26,7 +26,7 @@ Berisi informasi tentang pengemudi kendaraan/sopir layanan ojek online, seperti 
 <b>7. Table Price</b><br>
 Berisi informasi tentang harga per kilometer untuk setiap jenis kendaraan pada setiap rute perjalanan yang tersedia.<br>
 
-<h3><b>• Fitur :</b></h3>
+<h3><b>• Fitur Aplikasi :</b></h3>
 - Lihat Database Overview<br>
 - Lihat Booking Database<br>
 - Lihat Info Driver Ojek<br>
