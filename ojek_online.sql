@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 06, 2023 at 10:02 AM
+-- Generation Time: Dec 18, 2023 at 01:05 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -416,9 +416,9 @@ CREATE TABLE `route` (
 --
 
 INSERT INTO `route` (`route_id`, `start_location`, `end_location`, `distance`, `estimated_time`) VALUES
-('RTE001', 'Jakarta', 'Bandung', 150, 3),
-('RTE002', 'Surabaya', 'Malang', 100, 2),
-('RTE003', 'Medan', 'Banda Aceh', 300, 5),
+('RTE001', 'Klojen', 'Kepanjen', 20, 37),
+('RTE002', 'Sumberpucung', 'Klojen', 33, 55),
+('RTE003', 'Blimbing', 'Klojen', 3, 7),
 ('RTE004', 'Klojen', 'Sukun', 5, 15),
 ('RTE005', 'Lowokwaru', 'Blimbing', 7, 20),
 ('RTE006', 'Dau', 'Karangploso', 12, 30),
