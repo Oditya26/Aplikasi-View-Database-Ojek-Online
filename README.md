@@ -1,14 +1,14 @@
 # Aplikasi-View-Database-Ojek-Online
 <h3>
-<b>Nama Kelompok :</b><br></h3>Masbro<br>
-<h3><b>Anggota Kelompok :</b></h3><br>
+<b>Nama Kelompok :</b></h3>Masbro<br>
+<h3><b>Anggota Kelompok :</b></h3>
 2602185721 - Ahmad Hafidz<br>
 2602183426 - Muhammad Hafizh Raihan Daniswara<br>
 2602217225 - Oditya Ridho Darmanto<br><br>
-<h3><b>Tema :</b></h3> Transportasi<br>
-<h3><b>Judul:</b></h3> Database Ojek Online<br>
-<h3><b>Deskripsi :</b></h3><br>
-Database Ojek Online mencakup berbagai tabel yang merepresentasikan entitas dan hubungan antara entitas-entitas yang terlibat dalam sistem ojek online.
+<h3><b>Tema :</b></h3>Transportasi<br>
+<h3><b>Judul:</b></h3>Database Ojek Online<br>
+<h3><b>Deskripsi :</b></h3>
+Database Ojek Online mencakup berbagai tabel yang merepresentasikan entitas dan hubungan antara entitas-entitas yang terlibat dalam sistem ojek online.<br>
 
 <h3><b>List Table : </b><br></h3>
 <b>1. Table Route</b><br>
