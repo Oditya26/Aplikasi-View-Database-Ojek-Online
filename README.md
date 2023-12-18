@@ -4,7 +4,7 @@
 <h3><b>Anggota Kelompok :</b></h3>
 2602185721 - Ahmad Hafidz<br>
 2602183426 - Muhammad Hafizh Raihan Daniswara<br>
-2602217225 - Oditya Ridho Darmanto<br><br>
+2602217225 - Oditya Ridho Darmanto<br>
 <h3><b>Tema :</b></h3>Transportasi<br>
 <h3><b>Judul:</b></h3>Database Ojek Online<br>
 <h3><b>Deskripsi :</b></h3>
